@@ -14,6 +14,18 @@ public class Card {
         this.symbol = symbol;
         this.type = type;
     }
+    
+    public String getCard() {
+    	return symbol.getScore()+""+type;
+    }
+    
+    public int getSymbol() {
+    	return symbol.getScore();
+    }
+    
+    public Type getType() {
+    	return type;
+    }
 
     // TODO Card 관련 추가 기능 구현
 
